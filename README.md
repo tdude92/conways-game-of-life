@@ -1,2 +1,2 @@
 # conways-game-of-life
-Made Conway's Game of Life on repl.it.
+Made a version of Conway's Game of Life with Python 3.
