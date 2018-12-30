@@ -131,6 +131,7 @@ while True:
     print()
 
     gridCopy = deepcopy(grid)
+    
     for y in range(len(grid)):
         for x in range(len(grid[y])):
             gridCopy[y][x] = isAlive(x, y) 
@@ -138,5 +139,3 @@ while True:
     grid = deepcopy(gridCopy)
     
     sleep(0.5)
-
-print(seedCells)
